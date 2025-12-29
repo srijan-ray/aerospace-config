@@ -75,8 +75,8 @@ preset = 'qwerty'
 inner.horizontal = 10
 inner.vertical =   10
 outer.left =       5
-outer.bottom =     1
-outer.top =        [{monitor."PA" = 40}, {monitor."built-in" = 9}, {monitor."LG" = 41}, 35]
+outer.bottom =     3
+outer.top =        [{monitor."PA" = 40}, {monitor."built-in" = 14}, {monitor."LG" = 45}, 35]
 outer.right =      5
 
 # 'main' binding mode declaration
@@ -131,6 +131,7 @@ alt-shift-equal = 'resize smart +50'
 
 #
 alt-s = 'focus-monitor "PA"'
+alt-shift-s = 'focus-monitor "LG"'
 alt-g = 'focus-monitor "built-in"'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
